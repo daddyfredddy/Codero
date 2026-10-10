@@ -8,8 +8,8 @@ const AdminLayout = () => {
     {
       id: 1,
       name: "OB1",
-      cameras: 12,
-      microphones: 8,
+      cameras: 40,
+      microphones: 9,
       replay: 3,
     },
     {

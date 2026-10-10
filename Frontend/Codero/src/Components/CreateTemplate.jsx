@@ -48,6 +48,15 @@ const CreateTemplate = ({ onCancel, onSubmit }) => {
         </p>
       </div>
 
+      <div className="mb-4 flex gap-3">
+        <button className="p-2 bg-gray-800 text-white rounded-2xl cursor-pointer">
+          Generate Supervisor Code
+        </button>
+        <button className="p-2 bg-gray-800 text-white rounded-2xl cursor-pointer">
+          Generate crew Code
+        </button>
+      </div>
+
       {/* Form */}
       <form
         onSubmit={handleSubmit}
